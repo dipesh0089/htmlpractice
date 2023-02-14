@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		Name: <input type="text" placeholder="Enter your Name"><br><br>
+		Email: <input type="email"><br><br>
+        Passwors: <input type="Passwors"><br><br>
+        Date: <input type="Date"><br><br>
+        Date-Time: <input type="Date-Time local"><br><br>
+        Coloe: <input type="color"><br><br>
+        Country:<select>
+        	<option disabled=""> --- Select your Country --- </option>
+
+        	<option hidden> --- Select your Country --- </option>
+        	<option> India </option>
+            <option> USA </option>
+            <option> UAE </option>
+            <option> Australia </option>
+        </select><br><br>
+         Languages:
+         <input type="checkbox">Hindi
+         <input type="checkbox">Gujarati
+         <input type="checkbox">English<br><br>
+         Quantity:<input type="number"> <br><br>
+         <!--Mobile:<input type="text" placeholder="Enter mobile" required pattern="[0-9]" name="Numbers only...!"> <br><br> -->
+
+        <!-- Mobile:<input type="text" placeholder="Enter mobile" required pattern="[0-9]+" name="Numbers only...!"> <br><br> -->
+
+        Mobile:<input type="text" placeholder="Enter mobile" required pattern="[0-9]{10}" name="10 digits  only...!"> <br><br>
+
+        Upload an Image: <input type="file"> <br><br>
+        
+        <textarea rows="5" cols="40"></textarea><br><br>
+		<input type="submit">
+	</form>
+
+</body>
+</html>
