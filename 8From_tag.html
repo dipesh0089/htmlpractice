@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--<Name: <input type="texr" placeholder="Enter your name" required pattern="[a-zA-Z]+"title="Only letters....!"><br><br>-->
+        Name: <input type="texr" placeholder="Enter your name" required pattern="[a-zA-Z]{3,6}"title="main 3 and max 6...."><br><br>
+        <!--Email: <input type="email"><br><br>-->
+        password: <input type="password"><br><br>
+        Date: <input type="date"><br><br>
+        Date-Time: <input type="datetime-local"><br><br>
+        color: <input type="color"><br><br>
+        Country: 
+        <select>
+           <!--<option disabled>---select---</option>-->
+           <option hidden>---select---</option>
+           <option>India</option>
+           <option>Usa</option>
+           <option>Uk</option>
+       </select>
+       <br><br>
+       Grnder: 
+       <input type="radio" name="gender">Male        
+       <input type="radio" name="gender">Female
+       <br><br>
+       Languages:
+       <input type="checkbox">Hindi
+       <input type="checkbox">Gujarati
+       <input type="checkbox">English
+       <br><br>
+       Quantity: <input type="number">
+       <br><br>
+       Mobile: 
+       <!--<input type="text" placeholder="Enter mobile" required pattern="[0-9]+" title="10 digits  only...!">-->
+       <!--<input type="text" placeholder="Enter mobile" required pattern="[0-9]" title="10 digits  only...!">-->
+       <input type="text" placeholder="Enter mobile" required pattern="[0-9]{10}" title="10 digits  only...!">
+       <br><br>
+       <input type="submit" value="sign up">
+       <br><br>
+       <input type="reset" value="form">
+       <br><br>
+
+               
+
+    </form>
+    
+</body>
+</html>
